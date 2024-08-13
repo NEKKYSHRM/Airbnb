@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-white h-screen font-sans font-medium">
+    
+    <header class="block">
+        <nav class="bg-white h-20 w-full fixed top-0 z-20">
+            <div class="nav-container h-full grid grid-cols-3 justify-center items-center nav-grid">
+                <div class="logo ml-20 w-[8vw]">
+                    <img src="../Assets/logo.png" alt="">
+                </div>
+                <div class="searc-box flex border-2 border-solid border-stone-200 shadow shadow-stone-200 w-[90%] m-auto justify-evenly items-center h-12 rounded-3xl p-1 ">
+                    <span>Anywhere</span>
+                    <hr class="w-[0.1vw] bg-black h-5">
+                    <span>Any week</span>
+                    <hr class="w-[0.1vw] bg-black h-5">
+                    <span class="text-stone-500">Add guests</span>
+                    <div class="search w-8 h-8 bg-[#FF5A5F] rounded-full p-1 pl-1.5">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+                <div class="right-nav-box ml-44 flex justify-around items-center w-[50%]">
+                    <span class="text-sm">Airbnb your home</span>
+                    <i class="fa-solid fa-globe"></i>
+                    <div class="profile flex h-12 p-4 gap-4 rounded-full items-center border-2 border-solid border-stone-300">
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-nav py-1 bg-white border-2 border-solid border-stone-150 h-20 grid grid-cols-12 justify-center items-center nav-grid px-20  shadow-sm shadow-stone-200">
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+                <div class="nav2-box h-8 flex flex-col justify-center items-center gap-1">
+                    <img class="h-full" src="../Assets/pools.jpg" alt="">
+                    <span class="text-xs">Icons</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="mt-24 relative top-24 px-10">
+        <div class="containers grid grid-cols-4 grid-rows-4 gap-y-6">
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+            <div class="card h-[28vw] w-[20vw] m-auto flex flex-col gap-4">
+                <div class="img"></div>
+                <div class="description flex justify-between">
+                    <div class="des-text">
+                        <p class="font-medium text-base">Abiansemal, Indonesia</p>
+                        <p class="text-stone-500 font-normal text-base">5,565 Kilometeres away</p>
+                        <p class="text-stone-500 font-normal text-base">26 Sep - 1 Oct</p>
+                        <p class="text-base"><b>$400 </b><span class="font-normal">night</span></p>
+                    </div>
+                    <div class="rating flex gap-1 items-start">
+                        <div class="">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <span>4.83</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
